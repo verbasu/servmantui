@@ -1,0 +1,11 @@
+[package]
+name = "rata"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.27.0"
+diesel = {version = "2.1.6", features = ["postgres"]}
+postgresql = "0.1.1"
+dotenvy = "0.15"
+ratatui = "0.26.2"
